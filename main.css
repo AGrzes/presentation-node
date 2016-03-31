@@ -1,0 +1,42 @@
+body {
+    background-color:lime;
+    color:lime;
+    text-align:center;
+    font-size: 200%;
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+
+
+.step {
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    flex-direction: column;
+    height: 693px;
+    width: 800px;
+}
+
+.hex-background {
+    background:url('hex.svg');
+    padding: 80px;
+    box-sizing: border-box;
+}
+.step.active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.future.step:not(.active) {
+    opacity: 0;
+}
