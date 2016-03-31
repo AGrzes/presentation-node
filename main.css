@@ -1,8 +1,8 @@
 body {
-    background-color:lime;
-    color:lime;
+    background-color:#80bd01;
+    color:#80bd01;
     text-align:center;
-    font-size: 200%;
+    font-size: 150%;
     font-family:Helvetica,Arial,sans-serif;
 }
 
@@ -10,11 +10,16 @@ a {
     color: inherit;
 }
 
-pre {
-    font-family: monospace,monospace;
-    font-size: 1em;
+
+ul {
+    text-align:left;
 }
 
+code {
+    white-space: pre;
+    text-align:left;
+    color:lime;
+}
 
 .step {
     display: flex;
@@ -23,13 +28,18 @@ pre {
     align-items: center;
     /* align vertical */
     flex-direction: column;
-    height: 693px;
-    width: 800px;
+    height: 866px;
+    width: 1000px;
 }
 
 .hex-background {
     background:url('hex.svg');
     padding: 80px;
+    box-sizing: border-box;
+}
+
+.details {
+    padding: 160px;
     box-sizing: border-box;
 }
 .step.active {
@@ -38,5 +48,9 @@ pre {
 }
 
 .future.step:not(.active) {
-    opacity: 0;
+    -opacity: 0;
+}
+
+#getting-started {
+    padding: 200px;
 }

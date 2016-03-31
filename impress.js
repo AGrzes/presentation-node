@@ -324,7 +324,7 @@
                            translate(step.translate) +
                            rotate(step.rotate) +
                            scale(step.scale),
-                transformStyle: "preserve-3d"
+                //transformStyle: "preserve-3d"
             });
         };
 
@@ -372,7 +372,7 @@
                 position: "absolute",
                 transformOrigin: "top left",
                 transition: "all 0s ease-in-out",
-                transformStyle: "preserve-3d"
+                //transformStyle: "preserve-3d"
             };
 
             css(root, rootStyles);
