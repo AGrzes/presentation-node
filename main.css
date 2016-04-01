@@ -18,7 +18,7 @@ ul {
 code {
     white-space: pre;
     text-align:left;
-    color:lime;
+    color:lime
 }
 
 .step {
@@ -48,7 +48,7 @@ code {
 }
 
 .future.step:not(.active) {
-    -opacity: 0;
+    opacity: 0;
 }
 
 #getting-started {
