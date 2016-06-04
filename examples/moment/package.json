@@ -1,0 +1,14 @@
+{
+  "name": "examples.moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Grzegorz Abramczyk",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.13.0"
+  }
+}
