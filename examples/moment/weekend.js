@@ -9,13 +9,14 @@ var weekend = function (dateStr) {
         // Initialize with current time
         now = moment();
     }
+    now.locale('pl');
     var isWeekend = function () {
         // Check if Staruday or Sunday
-        return now.day() == 6 || now.day() == 7
+        return now.weekday() == 5 || now.weekday() == 6
     }
     var nextWeekend = function () {
         // Calculate time till next weekend
-        return isWeekend() ? now.clone().add(1, 'weeks').set('day',6) : now.clone().day(6);
+        return isWeekend() ? now.clone().add(1, 'weeks').weekday(5) : now.clone().weekday(5);
     }
 
     var tillWeekend = function () {
