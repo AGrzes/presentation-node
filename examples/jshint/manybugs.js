@@ -1,0 +1,6 @@
+i = 8,(4,3)
+if (true & i)
+    console['log'](++i)
+    console['log'](i--)
+    while (i=7,i++,i--)
+        console.log(j == null)
