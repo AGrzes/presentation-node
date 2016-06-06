@@ -1,0 +1,17 @@
+{
+  "name": "example.mocha_with_chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "progress": "mocha test.js -R progress",
+    "cover": "istanbul cover -i ../moment/weekend.js -x test.js _mocha -- test.js"
+  },
+  "author": "Grzegorz Abramczyk",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}

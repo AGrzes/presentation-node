@@ -21,7 +21,7 @@ var weekend = function (dateStr) {
 
     var tillWeekend = function () {
         // Calculate time till next weekend
-        return moment.duration(now.diff(nextWeekend()));
+        return moment.duration(nextWeekend().diff(now));
     }
 
     return {
