@@ -8,7 +8,7 @@
     "start": "node index.js",
     "browserify": "browserify ../browser/index.js --debug -o www/bundle.js"
   },
-  "author": "",
+  "author": "Grzegorz Abramczyk <abramczykg@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
